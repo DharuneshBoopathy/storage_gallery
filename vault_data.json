@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": "00000000-0000-0000-0000-000000000001",
+      "email": "admin@thegallery.local",
+      "fullName": "Chief Archivist",
+      "role": "SUPER_ADMIN",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "00000000-0000-0000-0000-000000000002",
+      "email": "boopathydharunesh622@gmail.com",
+      "fullName": "Dharunesh Boopathy",
+      "role": "SUPER_ADMIN",
+      "status": "ACTIVE",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "25d2720c-0b32-470f-8d71-e875876fa570",
+      "email": "alice@example.com",
+      "fullName": "Alice Test",
+      "passwordHash": "$2a$10$Vzi2tVy6AYrJkvkjXTydwOw7mzoxtYcUiT6yVz5VIyWYf0xHnsdvq",
+      "role": "MEMBER",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-16T22:28:23.701Z",
+      "invitedById": "00000000-0000-0000-0000-000000000002"
+    }
+  ],
+  "inviteCodes": [
+    {
+      "id": "inv_default_01",
+      "code": "TG-WELCOME-2026",
+      "role": "MEMBER",
+      "maxUses": 100,
+      "usesCount": 0,
+      "expiresAt": null,
+      "note": "Initial community access key",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "inv_default_02",
+      "code": "THEGALLERY-VIP",
+      "role": "CONTRIBUTOR",
+      "maxUses": 50,
+      "usesCount": 0,
+      "expiresAt": null,
+      "note": "Contributor archival key",
+      "createdAt": "2026-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "inv_1789597700935_6b8726",
+      "code": "TG-F864C5EB",
+      "role": "MEMBER",
+      "maxUses": 10,
+      "usesCount": 0,
+      "expiresAt": null,
+      "note": "VIP Access Code",
+      "createdAt": "2026-09-16T22:28:20.935Z",
+      "createdById": "00000000-0000-0000-0000-000000000002"
+    },
+    {
+      "id": "inv_1789597703700_7fda49",
+      "code": "TG-APPROVED-99F779",
+      "role": "MEMBER",
+      "maxUses": 1,
+      "usesCount": 1,
+      "expiresAt": null,
+      "note": "Approved access for Alice Test (alice@example.com)",
+      "createdAt": "2026-09-16T22:28:23.700Z",
+      "createdById": "00000000-0000-0000-0000-000000000002"
+    }
+  ],
+  "accessRequests": [
+    {
+      "id": "61c92e29-77c8-4f69-aea1-e4a1da57625d",
+      "fullName": "Alice Test",
+      "email": "alice@example.com",
+      "status": "APPROVED",
+      "createdAt": "2026-09-16T22:28:13.084Z",
+      "reviewedAt": "2026-09-16T22:28:23.699Z",
+      "reviewedById": "00000000-0000-0000-0000-000000000002",
+      "generatedInviteCode": "TG-APPROVED-99F779"
+    }
+  ]
+}
