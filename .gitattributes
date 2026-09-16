@@ -1,0 +1,14 @@
+# Git LFS tracking for video and large binary archives
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.mkv filter=lfs diff=lfs merge=lfs -text
+*.webm filter=lfs diff=lfs merge=lfs -text
+
+# Image files
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.webp binary
+*.heic binary
+*.heif binary
