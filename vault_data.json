@@ -25,6 +25,24 @@
       "status": "ACTIVE",
       "createdAt": "2026-09-16T22:28:23.701Z",
       "invitedById": "00000000-0000-0000-0000-000000000002"
+    },
+    {
+      "id": "4974e332-56d2-4618-a337-2043a73dd192",
+      "email": "unapproved_user@example.com",
+      "fullName": "unapproved_user",
+      "passwordHash": "$2a$10$bcNAzk4ahTHAaa3emwz6o.Xeml7uzBqqCCKRAg/qFFKq/ftkBs.c2",
+      "role": "MEMBER",
+      "status": "ACTIVE",
+      "createdAt": "2026-09-17T14:58:15.646Z"
+    },
+    {
+      "id": "24ef9103-e453-4d38-9dc3-81d08cf75db2",
+      "email": "pending_tester@example.com",
+      "fullName": "pending_tester",
+      "passwordHash": "$2a$10$/goJ/Ntk4bzxfAqEcQ9EQ..3mHpRL9AmUcy1J41ZWGg48.gU1JESy",
+      "role": "MEMBER",
+      "status": "PENDING_SETUP",
+      "createdAt": "2026-09-17T14:59:33.510Z"
     }
   ],
   "inviteCodes": [
